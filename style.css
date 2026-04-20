@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0b0b0b;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+    background: linear-gradient(90deg, #000, #140000);
+    box-shadow: 0 0 25px red;
+}
+
+h1 {
+    font-size: 40px;
+    color: #ff1a1a;
+    text-shadow: 0 0 20px red;
+}
+
+.upload-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 22px;
+    background: black;
+    border: 2px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.upload-btn:hover {
+    background: red;
+    box-shadow: 0 0 20px red;
+}
+
+.upload-btn input {
+    display: none;
+}
+
+.container {
+    padding: 30px;
+}
+
+h2 {
+    color: red;
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background: #111;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px red;
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.filename {
+    font-size: 14px;
+    word-break: break-word;
+}
